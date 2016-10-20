@@ -1,0 +1,26 @@
+---
+title: "bootstrap"
+author: "Brian Kruse"
+date: "October 18, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Brian Kruse
+The above r script establishes two normal vectors one with sample 100 mean 50 sd 15
+and the other sample 100 mean 1000 and sd 150. In addition, the script establishes exponential vectors sample 100 rate 2 and other sample 100 rate 50.  The script continues with one 1000 iteration loop that contains a bootstrap sample normal vectors for ctl and ctl1 with replacement and bootstrap sample exponential vectors expon and expon1 with replacement
+
+
+```
+{"/users/briankruse/desktop/ids/bootstrap_homework.r}
+
+```
+
+## Including Plots
+
+The following histograms have been included.  They demonstrate the central limit theorem for the normally distibuted ctl and ctl1 and demonstrate a skewed distribution for expon and expon1
